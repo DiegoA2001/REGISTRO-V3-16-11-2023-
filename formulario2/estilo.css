@@ -116,22 +116,6 @@ th {
     transform: scale(1.1); /* Zoom al pasar el mouse */
 }
 
-/* Agrega estilos al botón "Exportar a PDF" */
-#exportPdfButton {
-    background-color: rgb(211, 139, 22); /* Color de fondo verde */
-    color: white; /* Texto en color blanco */
-    padding: 10px 20px; /* Espaciado interno del botón */
-    font-size: 16px; /* Tamaño del texto */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
-    cursor: pointer; /* Cursor de puntero al pasar por encima */
-    transition: transform 0.2s; /* Transición suave del efecto de zoom */
-}
-
-#exportPdfButton:hover {
-    background-color: #dc993b; /* Cambio de color al pasar el mouse */
-    transform: scale(1.1); /* Zoom al pasar el mouse */
-}
 /* Estilos para tablas responsivas en dispositivos móviles */
 @media (max-width: 600px) {
     .responsive-table {
